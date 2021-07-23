@@ -3,9 +3,9 @@ import binus.app.castlevscastle.units.*;
 
 import java.util.ArrayList;
 
-public class Battle {
+public class BattleSystem {
     ArrayList<Player> playerlist = new ArrayList<>();
-    public Battle(){
+    public BattleSystem(){
         Castle castle1 = new Castle("Cavalry Castle", "Horse");
         Player player1 = new Player("Grand Cavalry", castle1);
         castle1.addArmy(new Cavalry());
