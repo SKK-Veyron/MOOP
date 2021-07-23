@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        final Battle start = new Battle();
+        final BattleSystem start = new BattleSystem();
         Button button = findViewById(R.id.button);
         Button button2 = findViewById(R.id.button2);
         final TextView text = findViewById(R.id.announcement);
