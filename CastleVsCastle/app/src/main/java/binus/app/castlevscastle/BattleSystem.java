@@ -1,5 +1,4 @@
 package binus.app.castlevscastle;
-import binus.app.castlevscastle.units.*;
 
 import java.util.ArrayList;
 
